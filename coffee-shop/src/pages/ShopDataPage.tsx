@@ -3,8 +3,7 @@ import ShopDataTable from '../components/ShopDataTable'
 
 const ShopDataPage: React.FC = () => {
     return (
-        <div>
-            <h1>My Coffee Shop Data</h1>
+        <div className="card shadow-sm mt-5">
             <ShopDataTable />
         </div>)
 }
